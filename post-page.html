@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Times Press</title>
+<title>Times Press | Post Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" media="screen" href="css/superfish.css" type="text/css" />
 <link rel="stylesheet" media="screen" href="css/stylesheet.css" type="text/css" />
@@ -12,41 +12,6 @@
 <script type="text/javascript" src="js/jquery-ui.min.js"></script>
 <script type="text/javascript" src="js/custom.js"></script>
 <script type="text/javascript" src="js/jquery.animate-shadow.js"></script>
-<script type='text/javascript' src='js/jquery.cycle.all.min.js'></script>
-<script type='text/javascript' src='nivo-slider/jquery.nivo.slider.pack.js'></script>
-<link rel="stylesheet" media="screen" href="nivo-slider/nivo-slider.css" type="text/css" />
-<script type="text/javascript">
-//<![CDATA[
-$(window).load(function () {
-    $('#slider').nivoSlider({
-        effect: 'slideInLeft', // Specify sets like: 'fold,fade,sliceDown'
-        slices: 10,
-        boxCols: 10, // For box animations
-        boxRows: 5, // For box animations
-        animSpeed: 1000, // Slide transition speed
-        pauseTime: 4500, // How long each slide will show
-        startSlide: 0, // Set starting Slide (0 index)
-        directionNav: true, // Next & Prev navigation
-        directionNavHide: true, // Only show on hover
-        controlNav: true, // 1,2,3... navigation
-        controlNavThumbs: true, // Use thumbnails for Control Nav
-        controlNavThumbsFromRel: true, // Use image rel for thumbs
-        pauseOnHover: true, // Stop animation while hovering
-    });
-});
-//]]>
-</script>
-<script type="text/javascript">
-//featured slider
-jQuery('#featured_slider').cycle({
-    fx: 'scrollHorz',
-    speed: 800,
-    timeout: 0,
-    easing: 'easeInOutQuint',
-    next: '#featured_slider_next',
-    prev: '#featured_slider_prev'
-});
-</script>
 </head>
 <body>
 <div id="panel" style="display: none;">
@@ -107,172 +72,182 @@ jQuery('#featured_slider').cycle({
     </div>
   </div>
   <div id="outer-wrapper">
-    <div id="slider-wrapper">
-      <div id="slider" class="nivoSlider"> <a href="#"><img src="nivo-slider/facebook_chat.jpg" alt="" rel="nivo-slider/facebook_chat_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/lady_gaga.jpg" alt="" rel="nivo-slider/lady_gaga_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/madonna.jpg" alt="" rel="nivo-slider/madonna_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/apple.jpg" alt="" rel="nivo-slider/apple_thumb.jpg" /></a> <a href="#"><img src="nivo-slider/movie.jpg" alt="" rel="nivo-slider/movie_thumb.jpg" /></a> <img src="nivo-slider/money.jpg" alt="" rel="nivo-slider/money_thumb.jpg" /> </div>
-      <div class="clear"></div>
-    </div>
-    <div class="clear"></div>
-    <div id="featured">
-      <h4 id="featured-title"><span>Featured</span></h4>
-      <div id="featured_slider" style="position:relative; overflow:hidden;">
-        <div class="item" >
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/samsung170x124.jpg" /></a></div>
-              <h3><a href="#">Samsung seeks ban on sale of key Apple products in US</a></h3>
-            </div>
-          </div>
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/fast-food170x124.jpg" /></a></div>
-              <h3><a href="#">Big fast-food chains lag rivals in taste</a></h3>
-            </div>
-          </div>
-          <div class="column">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/hybrid170x124.jpg" /></a></div>
-              <h3><a href="#">Toyota recalls 110,000 hybrid cars on safety concerns</a></h3>
-            </div>
-          </div>
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/sony_hacker170x124.jpg" /></a></div>
-              <h3><a href="#">Sony hacker now on Facebook payroll</a></h3>
-            </div>
-          </div>
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/san-francisco170x124.jpg" /></a></div>
-              <h3><a href="#">Survey ranks San Francisco greenest U.S. city</a></h3>
-            </div>
-          </div>
-          <div class="clear"></div>
-        </div>
-        <div class="item">
-          <div class="column">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/satyagraha170x124.jpg" /></a></div>
-              <h3><a href="#">Gandhi's Salt Satyagraha the most influential protests</a></h3>
-            </div>
-          </div>
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/france_prez170x124.jpg" /></a></div>
-              <h3><a href="#">Sarkozy involved in scuffle during handshake tour</a></h3>
-            </div>
-          </div>
-          <div class="column ">
-            <div class="inner">
-              <div class="image"> <a href="#"><img alt="" src="post-images/turtles170x124.jpg" /></a></div>
-              <h3><a href="#">Turtles temporarily shut down runway at JFK airport</a></h3>
-            </div>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
-      <div class="nav_controls">
-        <div id="featured_slider_prev"><a href="#">‹‹ Previous</a></div>
-        <div id="featured_slider_next"><a href="#">Next ››</a></div>
-      </div>
-      <div class="clear"></div>
-    </div>
     <div id="content-wrapper">
       <div id="inner-content">
-        <div id="category_sort" class="clearfix">
-          <div class="column">
-            <h4><span>Technology</span></h4>
-            <ul>
-              <li><a href="#">Scientists use inkjet printing to produce solar cells</a></li>
-              <li><a href="#">iPhone 5 delay, Android fears drag Apple stock</a></li>
-              <li><a href="#">Panasonic unveils stereo headset</a></li>
-              <li><a href="#">Google Chrome OS has security holes</a></li>
-              <li><a href="#">Nokia shuts down online stores</a></li>
-            </ul>
+        <div id="entry">
+          <div id="post-top">
+            <h3 id="post-title">Facebook adds Skype video chat feature:Report</h3>
+            <div class="post-meta"> <span class="author">Posted by <a href="#">JDsans</a></span><span class="posting-date">August 4 2010</span><span class="label"><a href="#">Technology</a> , <a href="#">Business</a> , <a href="#">Report</a></span> <span class="print"><a onclick="window.print()" href="#">Print</a></span> </div>
           </div>
-          <div class="column">
-            <h4><span>Hot on Web</span></h4>
+          <div class="entry-content">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cu sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultricies nec, pellensque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+            <img src="post-images/facebook_chat.jpg" alt="" />
+            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integ tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+            <blockquote> Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. </blockquote>
+            <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+            <p>Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Donec quam felis, ultris ellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.</p>
+            <h1>Headings Example</h1>
+            <h1>Lorem ipsum dolor sit amet consectetuer adipiscing elit</h1>
+            <h2>Aenean commodo ligula eget dolor aenean massa</h2>
+            <h3>Aenean commodo ligula eget dolor aenean massa</h3>
+            <h4>Aenean commodo ligula eget dolor aenean massa</h4>
+            <h5>Aenean commodo ligula eget dolor aenean massa</h5>
+            <h6>Aenean commodo ligula eget dolor aenean massa</h6>
+            <h1>Unordered List Example</h1>
             <ul>
-              <li><a href="#">Google Launches Its Google+ Social Networking Service</a></li>
-              <li><a href="#">World of Warcraft offered 'free'</a></li>
-              <li><a href="#">Skype rolls out free app for Android phones</a></li>
-              <li><a href="#">PayPal Predicts The End of the Wallet By 2015</a></li>
-              <li><a href="#">Apple iPad now has over 100,000 apps</a></li>
+              <li>Lorem ipsum dolor sit amet consectetuer.</li>
+              <li>Aenean commodo ligula eget dolor.</li>
+              <li>Aenean massa cum sociis natoque penatibus.</li>
             </ul>
+            <h1>Ordered List Example</h1>
+            <ol>
+              <li>Lorem ipsum dolor sit amet consectetuer.</li>
+              <li>Aenean commodo ligula eget dolor.</li>
+              <li>Aenean massa cum sociis natoque penatibus.</li>
+            </ol>
+            <p>Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+            <div class="social_sharing_post"> <a href="#" class="twitter"> Twitter</a> <a href="#" class="facebook">Facebook</a> <a href="#" class="stumble">Stumble Upon</a> <a href="#" class="digg">Digg It!</a> <a href="#" class="delicious">Del.ici.ous</a></div>
           </div>
-          <div class="column">
-            <h4><span>Entertainment</span></h4>
+          <div id="related_posts" class="clearfix">
+            <h3><span>Related posts</span></h3>
             <ul>
-              <li><a href="#">Spacey's Richard III wows critics</a></li>
-              <li><a href="#">Maria Sharapova returns to Wimbledon final</a></li>
-              <li><a href="#">Beyonce's debut brings curtain down on Glastonbury</a></li>
-              <li><a href="#">Mike Tyson in Big Brother?</a></li>
-              <li><a href="#">Justin Timberlake to promote MySpace</a></li>
+              <li>
+                <div class="thumb"><a href="#"><img src="post-images/related-posts/samsung144x105.jpg" alt=""/></a></div>
+                <div class="heading-container">
+                  <h4 class="post_title"><a href="#">Samsung seeks ban on sale of key Apple...</a></h4>
+                  <span class="line"></span> <span class="comment_number">3 comments</span> </div>
+              </li>
+              <li>
+                <div class="thumb"><a href="#"><img src="post-images/related-posts/fast-food144x105.jpg" alt=""/></a></div>
+                <div class="heading-container">
+                  <h4 class="post_title"><a href="#">Big fast-food chains lag rivals in taste</a></h4>
+                  <span class="line"></span> <span class="comment_number">5 comments</span> </div>
+              </li>
+              <li>
+                <div class="thumb"><a href="#"><img src="post-images/related-posts/sony_hacker144x105.jpg" alt=""/></a></div>
+                <div class="heading-container">
+                  <h4 class="post_title"><a href="#">Sony hacker now on Facebook payroll</a></h4>
+                  <span class="line"></span> <span class="comment_number">9 comments</span> </div>
+              </li>
+              <li>
+                <div class="thumb"><a href="#"><img src="post-images/related-posts/hybrid144x105.jpg" alt=""/></a></div>
+                <div class="heading-container">
+                  <h4 class="post_title"><a href="#">Toyota recalls 110,000 hybrid cars on safety...</a></h4>
+                  <span class="line"></span> <span class="comment_number">13 comments</span> </div>
+              </li>
             </ul>
           </div>
         </div>
-        <div id="double_container">
-          <h4 class="cont-title"><span>Some more posts</span></h4>
-          <div class="post_double">
-            <h4 class="post_title"><a href="#">US Secret Service probes "Obama's assassination" on Twitter</a><span class="comment_bubble"><a href="#">21</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/obama.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab ...</p>
+        <div id="comments">
+          <h3>13 Comments on "Lorem ipsum dolor sit amet consectetuer adipiscing elit"</h3>
+          <ol>
+            <li>
+              <div class="line"></div>
+              <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+              <div class="details">
+                <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricie</p>
               </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
-          <div class="post_double">
-            <h4 class="post_title"><a href="#">Djokovic beats Nadal to win maiden Wimbledon title</a><span class="comment_bubble"><a href="#">9</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/djokovic.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et ...</p>
+              <span class="reply"><a href="#">Reply</a></span>
+              <ul>
+                <li>
+                  <div class="line"></div>
+                  <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+                  <div class="details">
+                    <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  </div>
+                  <span class="reply"><a href="#">Reply</a></span>
+                  <ul>
+                    <li>
+                      <div class="line"></div>
+                      <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+                      <div class="details">
+                        <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                      </div>
+                      <span class="reply"><a href="#">Reply</a></span> </li>
+                    <li>
+                      <div class="line"></div>
+                      <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+                      <div class="details">
+                        <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                        <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                      </div>
+                      <span class="reply"><a href="#">Reply</a></span> </li>
+                  </ul>
+                </li>
+                <li>
+                  <div class="line"></div>
+                  <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+                  <div class="details">
+                    <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  </div>
+                  <span class="reply"><a href="#">Reply</a></span> </li>
+                <li>
+                  <div class="line"></div>
+                  <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+                  <div class="details">
+                    <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+                  </div>
+                  <span class="reply"><a href="#">Reply</a></span> </li>
+              </ul>
+            </li>
+            <li>
+              <div class="line"></div>
+              <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+              <div class="details">
+                <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricie</p>
               </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
-          <div class="post_double">
-            <h4 class="post_title"><a href="#">Emma Watson used doubles in the last potter film: Rupert Grint</a><span class="comment_bubble"><a href="#">15</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/emma_watson.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular...</p>
+              <span class="reply"><a href="#">Reply</a></span> </li>
+            <li>
+              <div class="line"></div>
+              <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+              <div class="details">
+                <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricie</p>
               </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
-          <div class="post_double">
-            <h4 class="post_title"><a href="#">Yahoo! criticised over e-mail 'snooping' for advertising</a><span class="comment_bubble"><a href="#">7</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/yahoo.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ...</p>
+              <span class="reply"><a href="#">Reply</a></span> </li>
+            <li>
+              <div class="line"></div>
+              <div class="image"> <a href="#"><img alt="" src="css/images/gravatar.jpg" /></a></div>
+              <div class="details">
+                <div class="name"> <span class="author"><a href="#">JDsans</a></span> <span class="comment-date">June 5, 2011 at 4:32pm </span> </div>
+                <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis. Nullam id dolor id nibh ultricie</p>
               </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
+              <span class="reply"><a href="#">Reply</a></span> </li>
+          </ol>
           <div class="clear"></div>
-        </div>
-        <div id="single_post_container">
-          <div class="post_single">
-            <h4 class="post_title clearfix"><a href="#">Dropbox Bug Made Accounts Accessible Without Passwords</a><span class="comment_bubble"><a href="#">4</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/dropbox150x150.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis ...</p>
-              </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
-          <div class="post_single">
-            <h4 class="post_title"><a href="#">Baidu and Microsoft tie-up for English search in China</a><span class="comment_bubble"><a href="#">10</a></span></h4>
-            <div class="post_content clearfix">
-              <div class="thumbnail"> <a href="#"><img src="post-images/baidu150x150.jpg" alt="" /></a></div>
-              <div class="summary_article">
-                <p>Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores. </p>
-                <p>At solmen va esser necessi far uniform grammatica, pronunciation e plu sommun paroles. Ma quande lingues coalesce, li grammatica del resultant lingue es plu simplic e regulari quam ti del coalescent lingues. Li nov lingua francaande lingues ...</p>
-              </div>
-            </div>
-            <span class="read_more"><a href="#">More...</a></span> </div>
-          <div class="clear"></div>
-          <div class="pagenavi clearfix"> <span class="pages">Page 1 of 18</span><span class="current">1</span> <a class="page_number" href="#">2</a> <a class="page_number" href="#">3</a> <a class="page_number" href="#">4</a> <a class="page_number" href="#">5</a> <a class="page_number" href="#">6</a> <a class="page_number" href="#">7</a> <a class="page_number" href="#">8</a> <a class="nextpostslink" href="#">››</a> <span class="extend">...</span> <a class="last" href="#">Last »</a></div>
+          <div id="respond">
+            <h3>Leave a Comment</h3>
+            <form action="#">
+              <p>
+                <label>Name<span class="star">*</span></label>
+                <input type="text" name="author" value="Your name" />
+              </p>
+              <p>
+                <label>Email<span class="star">*</span></label>
+                <input type="text" name="email" value="" />
+              </p>
+              <p>
+                <label>Website</label>
+                <input type="text" name="url" value="" />
+              </p>
+              <p>
+                <label>Message<span class="star">*</span></label>
+                <textarea rows="10" cols="73" name="message"></textarea>
+              </p>
+              <p class="submit">
+                <input type="submit" value="Submit" class="btn" name="submit" />
+              </p>
+            </form>
+            <div class="clear"></div>
+          </div>
         </div>
       </div>
       <div id="sidebar">
@@ -298,27 +273,27 @@ jQuery('#featured_slider').cycle({
                   <li>
                     <div class="tab-thumb"> <a class="thumb" href="#"><img width="45" height="45" alt=""  src="post-images/obama_thumb.jpg" /></a></div>
                     <h3 class="entry-title"><a class="title" href="#">US Secret Service probes "Obama's assassination" ...</a></h3>
-                    <div class="entry-meta entry-header"> <span class="published">June 7, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">21 Comments</a></span></div>
+                    <div class="entry-meta entry-header"> <span class="published">June 7, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">21 Comments</a> </span> </div>
                   </li>
                   <li>
                     <div class="tab-thumb"> <a class="thumb" href="#"><img width="45" height="45" alt=""  src="post-images/baidu_thumb.jpg" /></a></div>
                     <h3 class="entry-title"><a class="title" href="#">Baidu and Microsoft tie-up for English search in China</a></h3>
-                    <div class="entry-meta entry-header"> <span class="published">June 21, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">10 Comments</a></span></div>
+                    <div class="entry-meta entry-header"> <span class="published">June 21, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">10 Comments</a> </span> </div>
                   </li>
                   <li>
                     <div class="tab-thumb"> <a class="thumb" href="#"><img width="45" height="45" alt=""  src="post-images/djokovic_thumb.jpg" /></a></div>
                     <h3 class="entry-title"><a class="title" href="#">Djokovic beats Nadal to win maiden Wimbledon title</a></h3>
-                    <div class="entry-meta entry-header"> <span class="published">June 1, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">9 Comments</a></span></div>
+                    <div class="entry-meta entry-header"> <span class="published">June 1, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">9 Comments</a> </span> </div>
                   </li>
                   <li>
                     <div class="tab-thumb"> <a class="thumb" href="#"><img width="45" height="45" alt=""  src="post-images/dropbox_thumb.jpg" /></a></div>
                     <h3 class="entry-title"><a class="title" href="#">Dropbox Bug Made Accounts Accessible Without Passwords</a></h3>
-                    <div class="entry-meta entry-header"> <span class="published">June 12, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">4 Comments</a></span></div>
+                    <div class="entry-meta entry-header"> <span class="published">June 12, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">4 Comments</a> </span> </div>
                   </li>
                   <li>
                     <div class="tab-thumb"> <a class="thumb" href="#"><img width="45" height="45" alt=""  src="post-images/sony_hacker_thumb.jpg" /></a></div>
                     <h3 class="entry-title"><a class="title" href="#">Sony hacker now on Facebook payroll</a></h3>
-                    <div class="entry-meta entry-header"> <span class="published">June 7, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">3 Comments</a></span></div>
+                    <div class="entry-meta entry-header"> <span class="published">June 7, 2011</span> <span class="seperator">,</span> <span class="comment_number"> <a href="#">3 Comments</a> </span> </div>
                   </li>
                 </ul>
               </div>
@@ -471,7 +446,7 @@ jQuery('#featured_slider').cycle({
           <li><a href="#">Contact</a> /</li>
           <li><a href="#">Licensing</a></li>
         </ul>
-        <p>&copy; Copyright 2022. All rights reserved.</p>
+        <p>&copy; Copyright 2011. All rights reserved.</p>
       </div>
     </div>
   </div>
