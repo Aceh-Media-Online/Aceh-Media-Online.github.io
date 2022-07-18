@@ -6,9 +6,15 @@
 			* { margin: 0px; padding: 0px; }
 			html, body { width: 100%; height: 100%; overflow: hidden; }
 			#wpcom { width: 100%; height: 100%; border: none; }
+			#header { width: 100%; height: 20px; background: yellow; position: fixed; top: 0px; }
+			#footer { width: 100%; height: 20px; background: yellow; position: fixed; bottom: -20px; }
 		</style>
 	</head>
 	<body>
-		<iframe id="wpcom" src="https://acehmediaonline.wordpress.com"></iframe>
+		<header id="header"></header>
+		<main>
+			<iframe id="wpcom" src="https://acehmediaonline.wordpress.com"></iframe>
+		</main>
+		<footer id="footer"></footer>
 	</body>
 </html>
